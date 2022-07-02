@@ -17,7 +17,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "ping.goblue.personal"
     },
     "android": {
       "adaptiveIcon": {
