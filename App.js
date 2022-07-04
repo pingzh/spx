@@ -85,7 +85,7 @@ export default function App() {
 
       <HStack space={2} alignItems="center" pl={8} mb={1}>
         <Text fontSize="xl" w="1/3" fontWeight="medium">SPX Open</Text>
-        <Input fontSize="xl" keyboardType="numeric" w="2/4" onChangeText={(newPrice) => setSpxOpenPrice(newPrice)}/>
+        <Input fontSize="xl" keyboardType="decimal-pad" w="2/4" onChangeText={(newPrice) => setSpxOpenPrice(newPrice)}/>
       </HStack>
 
       <Pressable onPress={Keyboard.dismiss}>
