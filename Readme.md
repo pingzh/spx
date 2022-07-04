@@ -2,8 +2,8 @@
 
 The official NativeBase template for [Expo](https://docs.expo.io/)
 
-## Usage
+## deploy to github page
 
 ```sh
-expo init my-app --template @native-base/expo-template
+yarn deploy
 ```
