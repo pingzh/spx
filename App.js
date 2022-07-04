@@ -77,7 +77,7 @@ export default function App() {
   const dailyReturnStds = [[1.16, "Since 2020", "success.500"], [0.87, "Since 2012", "primary.500"], [1.50, "Conservative", "info.500"]]
   return (
     <NativeBaseProvider theme={theme}>
-      <Box pt={20} pb={5} alignSelf="center">
+      <Box pt={10} pb={5} alignSelf="center">
         <HStack space={5} alignItems="center">
           <Heading size="lg">SPX Iron Conor Calculator</Heading>
         </HStack>
