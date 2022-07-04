@@ -1,6 +1,7 @@
 {
   "name": "spx",
   "version": "1.0.0",
+  "homepage": "http://pingzh.github.io/spx",
   "main": "node_modules/expo/AppEntry.js",
   "keywords": [
     "react",
@@ -11,6 +12,8 @@
   "license": "MIT",
   "scripts": {
     "start": "expo start",
+    "predeploy": "expo build:web",
+    "deploy": "gh-pages -d web-build",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
@@ -28,12 +31,12 @@
     "react-native-web": "0.17.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "gh-pages": "^4.0.0"
   },
   "bugs": {
     "url": "https://github.com/GeekyAnts/nativebase-templates/issues"
   },
-  "homepage": "https://github.com/GeekyAnts/nativebase-templates#readme",
   "author": "Aditya Jamuar",
   "private": true
 }
